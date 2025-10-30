@@ -1,0 +1,53 @@
+# File Konfigurasi Sensitif (SANGAT PENTING)
+.env
+.env.backup
+.env.production
+
+# Dependensi (Hasil Install)
+/vendor/
+/node_modules/
+
+# File Kunci & Token
+/storage/*.key
+auth.json
+
+# Folder Public (Hasil Build & Storage Link)
+/public/build/
+/public/hot
+/public/storage
+
+# File Log & Cache Laravel
+/storage/framework/cache/
+/storage/framework/sessions/
+/storage/framework/testing/
+/storage/framework/views/
+/storage/logs/*.log
+!/storage/logs/.gitkeep
+
+# File Upload Pengguna (Cover & PDF)
+# Ini PENTING agar file dummy-mu tidak ter-upload ke GitHub
+/storage/app/public/covers/*
+/storage/app/public/pdfs/*
+# Baris !.gitkeep di bawah ini opsional, 
+# hanya untuk menjaga folder tetap ada di repo (jika kosong)
+!/storage/app/public/covers/.gitkeep
+!/storage/app/public/pdfs/.gitkeep
+
+# File Testing & Log
+.phpunit.result.cache
+npm-debug.log
+yarn-error.log
+
+# File Konfigurasi Lokal (Homestead)
+Homestead.json
+Homestead.yaml
+
+# Folder IDE
+/.fleet
+/.idea
+/.vscode
+
+# File Sistem Operasi
+.DS_Store
+Thumbs.db
+*.swp
