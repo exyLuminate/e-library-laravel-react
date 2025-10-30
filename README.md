@@ -2,8 +2,7 @@
 
 E-Library adalah aplikasi web manajemen buku digital yang dibangun menggunakan Laravel dan React (via Inertia.js). Aplikasi ini memungkinkan admin untuk mengelola buku (CRUD), kategori, dan memantau statistik, sementara pengguna dapat mencari, memfilter, membaca (mengunduh), memfavoritkan, dan memberikan ulasan pada buku.
 
-![Screenshot Dashboard Admin E-Library](https://ALAMAT_SCREENSHOT_MU/image.png)
-*(Ganti URL di atas dengan URL screenshot dashboard admin-mu setelah kamu mengunggahnya ke suatu tempat, atau hapus baris ini)*
+
 
 ---
 
