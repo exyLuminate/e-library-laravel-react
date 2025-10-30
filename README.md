@@ -46,10 +46,6 @@ E-Library adalah aplikasi web manajemen buku digital yang dibangun menggunakan L
 
 Berikut langkah-langkah untuk menjalankan proyek ini di lingkungan *development* lokal.
 
-## Instalasi (Lokal)
-
-Berikut langkah-langkah untuk menjalankan proyek ini di lingkungan *development* lokal.
-
 1.  **Clone Repository**
     ```bash
     git clone [https://github.com/](https://github.com/)[username]/[nama-repo].git
